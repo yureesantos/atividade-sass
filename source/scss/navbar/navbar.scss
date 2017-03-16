@@ -1,0 +1,15 @@
+.navbar {
+  width: $navbar-width;
+  height: $navbar-height;
+  padding: $navbar-padding;
+  font-family: $fonte;
+}
+
+// Load Tema 1
+@include theme-schema("cbs-theme", $navbar-cbs-bg, $navbar-cbs-color, $navbar-cbs-border);
+
+//Load Tema 2
+@include theme-schema("t2-theme", $navbar-t2-bg, $navbar-t2-color, $navbar-t2-border);
+
+// Load Tema 3
+@include theme-schema("t3-theme", $navbar-t3-bg, $navbar-t3-color, $navbar-t3-border);

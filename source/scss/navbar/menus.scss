@@ -1,0 +1,10 @@
+.navbar-menu {
+  float: right;
+  font-size: $navbar-menu-fs;
+  margin-top: $navbar-menu-mtop;
+}
+
+.navbar-menu-li li {
+  display:inline-block;
+  padding: $navbar-menu-padding;
+}
